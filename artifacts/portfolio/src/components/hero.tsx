@@ -53,18 +53,14 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="lg:col-span-5 relative order-1 lg:order-2 flex justify-center lg:justify-end"
         >
-          <div className="relative aspect-[3/4] w-full max-w-[360px] mx-auto lg:mx-0 group">
+          <div className="relative aspect-[3/4] w-full max-w-[360px] mx-auto lg:mx-0">
             {/* Architectural Frame */}
-            <div className="absolute inset-0 border border-border bg-card translate-x-4 translate-y-4 transition-transform duration-500 group-hover:translate-x-6 group-hover:translate-y-6" />
-            <div className="absolute inset-0 bg-primary/20 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0" />
-            
-            {/* Glitch Overlay Effect */}
-            <div className="absolute inset-0 bg-primary/10 mix-blend-color-dodge z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+            <div className="absolute inset-0 border border-border bg-card translate-x-4 translate-y-4" />
 
             <img 
               src="/profile.jpg" 
               alt="MD Ali Hossain Raunok" 
-              className="relative z-0 object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700"
+              className="relative z-0 object-cover w-full h-full"
             />
 
             {/* Tech accents */}
